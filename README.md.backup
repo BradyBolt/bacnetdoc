@@ -12,4 +12,4 @@ Good BACnet resources are like an oasis in the Sahara. Hopefully a list of point
 	- YABE: some frustrated dude made is own BACnet explorer. Most use this today.
 	- VTS: A go-to, especially before YABE, for exploring, testing, and interacting with BACnet devices.
 		+ Heads up: VTS supports scripts (although with a unique syntax)
-	- WireShark: An indispensable tool for prying incoming packets to interrogate your devices for debug info. The application knows the BACnet protocol due to the efforts of Karg.
+	- WireShark: An indispensable tool for prying incoming packets to interrogate your devices for debug info. The BACnet protocol
