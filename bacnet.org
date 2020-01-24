@@ -1,0 +1,23 @@
+#+Title: BACnet
+Purpose: Document resources, notes, and pointers for understanding BACnet.
+
+* Introduction
+  These are the words of a lowly intern so don't expect everything to be correct. I will give you a fair warning if a video/resource contains /French/ in-case you prefer good Christian English at the expense of understanding BACnet. These notes also serve as documentation toward a BACpypes script that checks the properties of BACnet objects and devices (/properties, objects, and devices are specific BACnet words/).
+* Getting Started
+** What is BACnet?
+   The official name is ANSI/ASHRAE 135-XXXX, BACnet (TM) (where =XXXX= denotes some yearly standard, 1995, 2016, 2019, and so on). It's what HVAC people decided their machines will communicate with. If somebody hasn't told you this before: BACnet documentation isn't the greatest, though there's a couple places to look at. A fair-warning, a lot of the material you read will not entirely make sense without some basic networking knowledge. Also, when it doubt [[https://blog.codinghorror.com/learn-to-read-the-source-luke/][go to the source]].
+
+   More specifically, BACnet is merely a protocol. There is a [[https://www.techstreet.com/standards/ashrae-135-1-2019?product_id=2082781][bible]] that comes out with new editions (with a [[http://www.momentumpress.net/books/bacnet-global-standard-building-automation-and-control-networks][traditional guide]] to go with it) and there are (/were/) [[https://bacnetbill.blogspot.com/][priests]] to drag humanity forward toward the light.
+** Reading
+   Check out these resources in any order
+   + [[https://dms.hvacpartners.com/docs/1000/Public/04/11-808-417-01.pdf][BACnet Basics]]
+   + [[https://dms.hvacpartners.com/docs/1000/public/05/11-808-511-01.pdf][BBMD Utility User Guide]] (reading this may help you understand what BBMDs generally do)
+   + [[http://bacnet.sourceforge.net/][BACnet Stack: An open source BACnet protocol stack for embedded systems]]
+   + [[https://www.youtube.com/watch?v=uhjbEoktMAk&feature=youtu.be][BAMTV 005 (Youtube Series): BACnet Integration Fundamentals part 1]]
+     - Read, watch, and understand enough BACnet and networking material so that you understand everything (or at least as close to everything that this guy talks about)
+     - If you're hardcore look at [[http://www.bacnet.org/Tutorial/Encoding.doc][this]] (this may be another good [[http://kargs.net/BACnet/BACnet_Packet_Structure_Encoding.pdf][encoding source]])
+* BACnet Terms
+  + [[http://www.bacnetwiki.com/wiki/index.php?title=Device][Device Object Identifier]] (ID): unique internetwork wide
+    - The Object Identifier is a property of the Device Object and uniquely IDs that single Device Object
+    - Object Identifiers are 32-bit values organized as: [32b:[10b: Object Type][22b: Object Instance]]
+    - The =Object Name= is another property, that is also unique internetwork wide
