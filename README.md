@@ -54,12 +54,11 @@ Reading
 
 - Building on the first reading, Chipkin provides their own very nice [introductory resource](https://c3.chipkin.com/assets/uploads/2018/mar/15-19-09-42_Bacnet_For_Beginners2.pdf) that includes much more material
 - An older write-up done by BACnet Bill covering [The Language of BACnet](http://www.bacnet.org/Bibliography/ES-7-96/ES-7-96.htm) provides a condensed synthesis of the important bits you just read above
-- [BACnet MS/TP Server Driver Manual](http://www.iccdesigns.com/products/millennium/documents/BACnet%20MS%20TP%20Server.pdf): Besides being vendor user's manual, this resource covers a number of useful definitions for different BACnet properties and objects (this is useful to look at while looking at the previous resource)
+- [BACnet MS/TP Server Driver Manual](http://www.iccdesigns.com/products/millennium/documents/BACnet%20MS%20TP%20Server.pdf): besides being vendor user's manual, this resource covers a number of useful definitions for different BACnet properties and objects (this is useful to look at while looking at the previous resource)
 - [BACnet Basics](https://dms.hvacpartners.com/docs/1000/Public/04/11-808-417-01.pdf): a vendor user-guide to skim quickly over to get an idea of how the first reading applies in action (but probably not as helpful as the other resources)
 - [BBMD Utility User Guide](https://dms.hvacpartners.com/docs/1000/public/05/11-808-511-01.pdf): it's a good idea to look at this to get an idea of how BACnets are configured to find each other
 - [BAMTV 005: BACnet Integration Fundamentals part 1](https://www.youtube.com/watch?v=uhjbEoktMAk&feature=youtu.be): BAMTV is all-around great for wrapping your head with BACnet
     - Do enough reading and discovery to *fully* understand everything the instructor goes over in this video
-    - Once you're done with at least 005, reference [this resource](http://www.bacnet.org/Bibliography/ES-7-96/ES-7-96.htm) for more concrete examples of how BACnet objects are organized.
 - More detailed info on the BACnet protocol can be found at [Understanding BACnet encoding](http://www.bacnet.org/Tutorial/Encoding.doc)
 - The website [Automated Buildings](http://www.automatedbuildings.com) keeps their [articles over here](http://www.automatedbuildings.com/news/aug08/articles/)
 - Steven Karg's directory of BACnet tutorials and write-ups can be found [here](http://kargs.net/BACnet/)
