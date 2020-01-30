@@ -53,6 +53,7 @@ Reading
 [Read this first](https://www.ccontrols.com/pdf/BACnetIntroduction.pdf) (there's [more here](https://www.ccontrols.com/lc/index.htm) you might find relevant like material on MODBUS). Then work through the following below in any order:
 
 - Building on the first reading, Chipkin provides their own very nice [introductory resource](https://c3.chipkin.com/assets/uploads/2018/mar/15-19-09-42_Bacnet_For_Beginners2.pdf) that includes much more material
+- Another great resource to check out is the [BACnet Ontology](http://bacowl.sourceforge.net/index.html) project
 - An older write-up done by BACnet Bill covering [The Language of BACnet](http://www.bacnet.org/Bibliography/ES-7-96/ES-7-96.htm) provides a condensed synthesis of the important bits you just read above
 - [BACnet MS/TP Server Driver Manual](http://www.iccdesigns.com/products/millennium/documents/BACnet%20MS%20TP%20Server.pdf): besides being vendor user's manual, this resource covers a number of useful definitions for different BACnet properties and objects (this is useful to look at while looking at the previous resource)
 - [BACnet Basics](https://dms.hvacpartners.com/docs/1000/Public/04/11-808-417-01.pdf): a vendor user-guide to skim quickly over to get an idea of how the first reading applies in action (but probably not as helpful as the other resources)
