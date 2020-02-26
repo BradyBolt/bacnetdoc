@@ -50,7 +50,7 @@ Background Info
 Reading
 -------
 
-[Read this first](https://www.ccontrols.com/pdf/BACnetIntroduction.pdf) (there's [more here](https://www.ccontrols.com/lc/index.htm) you might find relevant like material on MODBUS). Then work through the following below in any order:
+[Read this first](https://buildingautomationmonthly.com/definitive-guide-bacnet/), and [see this for a more formal but gentle introduction](https://www.ccontrols.com/pdf/BACnetIntroduction.pdf) (there's [more here](https://www.ccontrols.com/lc/index.htm) you might find relevant like material on MODBUS). Then work through the following below in any order:
 
 - Building on the first reading, Chipkin provides their own very nice [introductory resource](https://c3.chipkin.com/assets/uploads/2018/mar/15-19-09-42_Bacnet_For_Beginners2.pdf) that includes much more material
 - Another great resource to check out is the [BACnet Ontology](http://bacowl.sourceforge.net/index.html) project
