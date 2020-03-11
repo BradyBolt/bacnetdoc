@@ -45,6 +45,7 @@ Background Info
 		+ Stack Implementations
 			* Python: The [bacpypes](https://github.com/JoelBender/bacpypes) stack is exposed by the nice and simple [BAC0 interface](https://github.com/ChristianTremblay/BAC0)
 			* C: Karg's [BACnet Protocol Stack](https://sourceforge.net/projects/bacnet/) for C is time-tested and widely used
+			* Java: [Bacnet4J](https://github.com/infiniteautomation/BACnet4J) supporting BACnetIP over ivp4 and ivp6 as well as MS/TP
 	- Karg talks about many other [useful tools out there](http://bacnet.sourceforge.net/) being used for BACnet and is definitely worth checking out  
 
 Reading

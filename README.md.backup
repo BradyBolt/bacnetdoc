@@ -22,7 +22,7 @@ source](https://blog.codinghorror.com/learn-to-read-the-source-luke/).
 
 More specifically, BACnet is merely a protocol. There is a
 [bible](https://www.techstreet.com/standards/ashrae-135-1-2019?product_id=2082781)
-that comes out with new editions (with a [traditional
+that comes out with new editions (with a [official
 guide](http://www.momentumpress.net/books/bacnet-global-standard-building-automation-and-control-networks)
 to go with it).
 
@@ -45,6 +45,7 @@ Background Info
 		+ Stack Implementations
 			* Python: The [bacpypes](https://github.com/JoelBender/bacpypes) stack is exposed by the nice and simple [BAC0 interface](https://github.com/ChristianTremblay/BAC0)
 			* C: Karg's [BACnet Protocol Stack](https://sourceforge.net/projects/bacnet/) for C is time-tested and widely used
+			* Java: [Bacnet4J](https://github.com/infiniteautomation/BACnet4J) supporting BACnetIP over ivp4 and 
 	- Karg talks about many other [useful tools out there](http://bacnet.sourceforge.net/) being used for BACnet and is definitely worth checking out  
 
 Reading
