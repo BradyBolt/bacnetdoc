@@ -22,7 +22,7 @@ source](https://blog.codinghorror.com/learn-to-read-the-source-luke/).
 
 More specifically, BACnet is merely a protocol. There is a
 [bible](https://www.techstreet.com/standards/ashrae-135-1-2019?product_id=2082781)
-that comes out with new editions (with a [traditional
+that comes out with new editions (with a [official
 guide](http://www.momentumpress.net/books/bacnet-global-standard-building-automation-and-control-networks)
 to go with it).
 
@@ -31,7 +31,7 @@ Background Info
 
 * Q: Who's famous/well known in this area? Why? What stuff have they done or made?
 	- [BACnet Bill](http://www.bacnet.org/DL-Docs/Swan-in-Memoriam.html): nurtured BACnet since its infancy. Check out his [blog](https://bacnetbill.blogspot.com/). 
-	- [Mr. Steve Karg](https://steve.kargs.net/bacnet-consulting/): implemented one of the most widely used BACnet stacks in the industry: [BACnet Stack](http://bacnet.sourceforge.net/), and has touched almost everything you'll probably run into as a BACnet developer.
+	- [Mr. Steve Karg](https://steve.kargs.net/bacnet-consulting/): responsible for a widely used BACnet stack implementation: [BACnet Stack](http://bacnet.sourceforge.net/) and is a good authority on the BACnet standard in general
 	- *Note:* BACnet developers are often referred to as BACneteers.
 * Q: What tools would I need?
 	- [YABE](https://sourceforge.net/projects/yetanotherbacnetexplorer/): some frustrated dude made his own BACnet explorer. Most use this today.
