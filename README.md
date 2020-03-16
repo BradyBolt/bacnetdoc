@@ -29,6 +29,8 @@ Background Info
 * Q: Who's famous/well known in this area? Why? What stuff have they done or made?
 	- [BACnet Bill](http://www.bacnet.org/DL-Docs/Swan-in-Memoriam.html): nurtured BACnet since its infancy. Check out his [blog](https://bacnetbill.blogspot.com/). Dedicated each year through the *Swan Award* as part of the annual [Plug-fest](https://www.bacnetinternational.org/page/plugfest) event.
 	- [Mr. Steve Karg](https://steve.kargs.net/bacnet-consulting/): responsible for a widely used BACnet stack implementation: [BACnet Stack](http://bacnet.sourceforge.net/) and is a good authority on the BACnet standard in general
+	- Mike Newman: The guy who made BACnet
+	- Other important people in [this video](https://www.youtube.com/watch?v=Jzs-Q_blwN0&feature=youtu.be)
 	- *Note:* BACnet developers are often referred to as BACneteers.
 * Q: What tools would I need?
 	- [YABE](https://sourceforge.net/projects/yetanotherbacnetexplorer/): some frustrated dude made his own BACnet explorer. Most use this today.

@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Good BACnet resources are like an oasis in the Sahara. Hopefully a list of pointers could help somebody some-what.
+A collection of decent BACnet resources for noobs like myself.
 
 Getting Started
 ===============
@@ -20,18 +20,17 @@ material you read will not entirely make sense without basic
 networking knowledge ([etc](https://support.microsoft.com/en-us/help/164015/understanding-tcp-ip-addressing-and-subnetting-basics)). Also, when it doubt [go to the
 source](https://blog.codinghorror.com/learn-to-read-the-source-luke/).
 
-More specifically, BACnet is merely a protocol. There is a
-[bible](https://www.techstreet.com/standards/ashrae-135-1-2019?product_id=2082781)
-that comes out with new editions (with a [official
-guide](http://www.momentumpress.net/books/bacnet-global-standard-building-automation-and-control-networks)
+BACnet is merely a protocol, so there's a lot of leg-room and user-freedom (i.e. 'work') for the developer that's involved in setting up a BACnet system. There is a [bible](https://www.techstreet.com/standards/ashrae-135-1-2019?product_id=2082781) that comes out with new editions (with a [official guide](http://www.momentumpress.net/books/bacnet-global-standard-building-automation-and-control-networks)
 to go with it).
 
 Background Info
 ---------------
 
 * Q: Who's famous/well known in this area? Why? What stuff have they done or made?
-	- [BACnet Bill](http://www.bacnet.org/DL-Docs/Swan-in-Memoriam.html): nurtured BACnet since its infancy. Check out his [blog](https://bacnetbill.blogspot.com/). 
+	- [BACnet Bill](http://www.bacnet.org/DL-Docs/Swan-in-Memoriam.html): nurtured BACnet since its infancy. Check out his [blog](https://bacnetbill.blogspot.com/). Dedicated each year through the *Swan Award* as part of the annual [Plug-fest](https://www.bacnetinternational.org/page/plugfest) event.
 	- [Mr. Steve Karg](https://steve.kargs.net/bacnet-consulting/): responsible for a widely used BACnet stack implementation: [BACnet Stack](http://bacnet.sourceforge.net/) and is a good authority on the BACnet standard in general
+	- Mike Newman: The guy who made BACnet
+	- Other important people in [this video](https://www.youtube.com/watch?v=Jzs-Q_blwN0&feature=youtu.be)
 	- *Note:* BACnet developers are often referred to as BACneteers.
 * Q: What tools would I need?
 	- [YABE](https://sourceforge.net/projects/yetanotherbacnetexplorer/): some frustrated dude made his own BACnet explorer. Most use this today.
@@ -45,7 +44,8 @@ Background Info
 		+ Stack Implementations
 			* Python: The [bacpypes](https://github.com/JoelBender/bacpypes) stack is exposed by the nice and simple [BAC0 interface](https://github.com/ChristianTremblay/BAC0)
 			* C: Karg's [BACnet Protocol Stack](https://sourceforge.net/projects/bacnet/) for C is time-tested and widely used
-			* Java: [Bacnet4J](https://github.com/infiniteautomation/BACnet4J) supporting BACnetIP over ivp4 and 
+			* Java: [Bacnet4J](https://github.com/infiniteautomation/BACnet4J) supporting BACnetIP over ivp4 and ivp6 as well as MS/TP
+			* C#: [BACsharp](https://sourceforge.net/projects/bacsharp/) stack
 	- Karg talks about many other [useful tools out there](http://bacnet.sourceforge.net/) being used for BACnet and is definitely worth checking out  
 
 Reading
